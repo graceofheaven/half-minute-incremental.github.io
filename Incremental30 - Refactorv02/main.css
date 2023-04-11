@@ -1,0 +1,622 @@
+.background {
+    background-color: rgb(255, 255, 255);
+
+}
+.sectionLeft {
+    float:left;
+    width:60vw
+    
+}
+.sectionRight {
+   float: right;
+   width:35vw
+}
+.flexible {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px 10px 5px 10px;
+    column-gap: 5px;
+}
+.flexible_center {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexible_marginless {
+    display:flex;
+}
+.flexible_vertical {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.timer_container {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Georgia;
+    font-size: 64px;
+}
+.score_container {
+    background-color:rgba(108, 108, 108, 0.179);
+    font-family: Georgia;
+    font-size: 32px;
+    width: 100%;
+    text-align:center;
+    color: gray;
+}
+/*shop*/
+.shop_container {
+    background-color: aliceblue;
+    transition: all .2s ease-in-out;
+    border-radius:10px;
+    width: 80%;
+    margin:10px 0px 10px 0px;
+    font-family:Georgia;
+}
+.shop_container:hover {
+    background-color:azure;
+    transition: all .2s ease-in-out;
+}
+.shop_container #image {
+    width:15%
+
+}
+.shop_container img {
+    width:64px;
+    height:64px;
+}
+.shop_container #nameandCost p {
+    margin:0px;
+    width: 35%;
+}
+.shop_container #nameandCost p:first-of-type {
+    font-size:24px;
+}
+.shop_container #gps {
+    width:35%
+}
+.shop_container #amount {
+    font-size:48px;
+    color: #595959;
+    width:15%;
+}
+/*prayer*/
+.pray_container {
+    background-color: grey;
+    transition: all.2s ease-in-out;
+    width: 100%;
+    margin:10px 0px 10px 0px;
+    font-family:Georgia;
+    border-radius: 10px;
+}
+.pray_container:hover {
+    background-color:rgb(87, 87, 87);
+    transition: all .2s ease-in-out;
+}
+.pray_container #image {
+    width:25%
+
+}
+.pray_container img {
+    width:64px;
+    height:64px;
+}
+.pray_container #nameandCost p {
+    margin:0px;
+    width: 60%;
+}
+.pray_container #nameandCost p:first-of-type {
+    font-size:24px;
+}
+.pray_container #auto {
+    font-size:48px;
+    color: #595959;
+    width:35%;
+}
+/*upgrade*/
+.upgradeButton {
+    border: 2px;
+    background-color: aliceblue;
+    transition: all .2s ease-in-out;
+    border-radius:10px;
+    width: 12vw;
+    height:20vw;
+    margin:10px 0px 10px 0px;
+    font-family:Georgia;
+    
+}
+
+.upgradeButton:hover {
+    background-color:azure;
+    transition: all .2s ease-in-out;
+}
+.upgradeButton #image {
+    height:25%
+}
+.upgradeButton img {
+    height: 64px;
+    width: 64px
+}
+.upgradeButton #nameandCost p{
+    margin:0px;
+    height:50%;
+
+}
+.upgradeButton #nameandCost p:first-of-type {
+    font-size:24px;
+    
+}
+.upgradeButton #multi {
+    font-size:36px;
+}
+/*purchased upgrade*/
+.purchasedupgradeButton {
+    background-color: green;
+    transition: all .2s ease-in-out;
+    border-radius:10px;
+    width: 12vw;
+    height:20vw;
+    margin:10px 0px 10px 0px;
+    font-family:Georgia;
+    
+}
+
+.purchasedupgradeButton #image {
+    height:25%
+}
+.purchasedupgradeButton img {
+    height: 64px;
+    width: 64px
+}
+.purchasedupgradeButton #nameandCost p{
+    margin:0px;
+    height:50%;
+
+}
+.purchasedupgradeButton #nameandCost p:first-of-type {
+    font-size:24px;
+    
+}
+.purchasedupgradeButton #multi {
+    font-size:36px;
+}
+/*tooltip*/
+.tooltip {
+    position: relative;
+  }
+  
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    font-family:Georgia;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/*wife*/
+.wifeContainer{
+    height:80%;
+    width:auto;
+    border-radius:10px;
+    font-family:Georgia;
+
+    background-color:azure;
+    
+
+   }
+
+   .wifeContainer #rank {
+    height: 10%;
+    font-size:24px;
+   }
+   .wifeContainer img {
+    width:128px;
+    height:128px;
+
+   }
+   .wifeContainer #image {
+    height:25%;
+    margin:0px;
+   }
+   .wifeContainer #description {
+    height: 20%;
+   }
+   .wifeContainer #effect {
+    height:15%;
+    font-size:5px;
+   }
+   .wifeContainer #determination {
+    height:10%;
+   }
+   .wifeContainer #breed {
+    height:10%;
+    font-size:5px;
+   }
+   .wifeContainer #unlock {
+    height:10%;
+    font-size: 5px;
+   }
+
+/*tab*/
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width:120px;
+    height:40px;
+    font-size: 20px;
+    font-weight:bold;
+    font-family:Georgia;
+   }
+.secondtab{
+    overflow:hidden;
+    background-color: #f1f1f1;
+    width:80px;
+    height:30px;
+    font-size: 15px;
+    font-family:Georgia;
+    align-items: center;
+
+
+}
+
+/*alert*/
+.alert {
+    padding:10px;
+    border-radius: 10px;
+    color:whitesmoke;
+    opacity:1;
+    transition: opacity 0.6s ;
+    font-family:Georgia;
+    margin-bottom: 2px;
+    position:absolute;
+    width:30%;
+
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+.closebtn:hover {
+    color: black;
+  }
+.alert.success {background-color: #04AA6D;}
+/*automation*/
+.auto_container {
+    width:80%;
+    background-color: white;
+    border:2px solid black;
+    font-family: Georgia;
+    border-radius:10px;
+    width: 80%;
+    margin:10px 0px 10px 0px;
+    overflow:hidden;
+}
+.auto_container #image {
+    width:20%;
+}
+.auto_container img {
+    height:64px;
+    width:64px;
+}
+.auto_container #nameandCost p {
+    width:75%;
+}
+.auto_container #nameandCost p:first-of-type {
+    font-size:32px;
+}
+/*prestige1*/
+.prestige {
+    font-family: Georgia;
+    font-size:24px;
+    height:100%;
+    width:auto;
+    text-align: center;
+
+}
+.prestige #header {
+    height:60%;
+}
+.prestige #target {
+    height:20%;
+}
+.prestige #reset {
+    height:20%;
+}
+.prestige_milestone {
+    border: 2px;
+    font-size:18px;
+    font-family:Georgia;
+    margin:10px;
+}
+.prestige_milestone .platinum {
+    background-color: gray;
+}
+.prestige_milestone .titanium {
+    background-color: azure;
+}
+.prestige_milestone .uranium{
+    background-color: gold;
+}
+.alchemy_milestone_button{
+    overflow:hidden;
+    background-color: #f1f1f1;
+    width:auto;
+    height:30px;
+    font-size: 15px;
+    font-family:Georgia;
+}
+.alchemy_milestone {
+    font-size:18px;
+    border:2px solid;
+    margin:-1px;
+    width:33vw;
+    font-family: Georgia;
+    border-color:black;
+    text-align: center;
+
+}
+.alchemy_milestone .obtained {
+    background-color: green;
+}
+.alchemy_milestone #req{
+    background-color:gray;
+    width:20%;
+
+}
+.alchemy_milestone #effect{
+    background-color:gray;
+    width:80%;
+
+}
+.confirm {
+    width:32px;
+    height:64px;
+}
+.confirm .prestigeT1 {
+    background-color: gray;
+}
+.confirm img {
+    width:80%;
+    height:80%
+} 
+.confirm #image {
+    height:50%
+}
+.confirm #status{
+    font-size:18px;
+    font-family:Georgia;
+}
+/*bloodline*/
+.bloodlineContainer {
+    height:100%;
+    width:20vw;
+    margin:0px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    font-size: 18px;
+    font-family:Georgia;   
+}
+.bloodlineContainer img {
+    width:128px;
+    height:128px;
+}
+.bloodlineContainer #image {
+    height:20%;
+    align-items: center;
+}
+.bloodlineContainer #name {
+    height:20%;
+    align-items:center;
+    text-align:center;
+}
+.bloodlineContainer #bond {
+    height:50%;
+    align-items:center;
+    text-align:center;
+}
+.bloodlineContainer #interact {
+    height:10%;
+}
+/*kingdom*/
+.kingdom{
+
+    width:80%;
+    background-color: azure;
+    font-family: Georgia;
+    margin:10px 0px 10px 0px;
+    border-radius: 5px;
+
+}
+.kingdom #image {
+    height:25%;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.kingdom img {
+    height:256px;
+    width:256px;
+    
+}
+.kingdom #effect {
+    height:50%;
+    
+}
+.kingdom #improve {
+    height:25%;
+    align-content: center;
+}
+/*diplomacy*/
+.diplomacy {
+    width:33vw;
+    background-color:rgba(128, 128, 128, 0.71);
+    font-family:Georgia;
+}
+.diplomacy #image {
+    height:25%;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.diplomacy img {
+    height:128px;
+    width:128px;
+}
+.diplomacy #name {
+    font-weight:bold;
+    font-size:36px;
+    align-content: center;
+    height:25%;
+}
+.diplomacy #effect {
+    height:25%
+}
+.diplomacy #improve {
+    height:25%;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.proposal {
+    height:90%;
+    background-color: bisque;
+    border-color:gray;
+    border: 2px solid;
+}
+.proposal #title {
+    height:15%;
+    font-size:32px;
+    font-weight:bold;
+}
+
+
+/*achievement*/
+.achievement_image {
+    width:128px;
+    height:128px;
+    background-repeat: no-repeat;
+    size:128px 128px;
+    
+
+}
+.achievement {
+    background-color: rgba(128, 128, 128, 0.503);
+    font-family:Georgia;
+    width:128px;
+    height:128px;
+    align-self:auto;
+    color:white;
+    margin:-2px -2px;
+    table-layout:fixed;
+    overflow:hidden;
+}
+.achievement.completed {
+    background-color: rgba(0, 214, 0, 0.5);
+    
+}
+.achievement #name {
+    font-size:16px;
+    vertical-align: top;
+    text-align: center;
+    padding:0px;
+    overflow:hidden;
+    table-layout: fixed;
+}
+.achievement #id {
+    font-size:12px;
+    text-align: center;
+    padding:0px;
+}
+
+.achievement_notif {
+    padding:5px 10px 5px 10px;
+    width:40%;
+    position: absolute;
+    background-color: green;
+    color:white;
+    font-size: 24px;
+    font-family:Georgia;
+}
+.achivement_notif #image {
+    width:128px;
+    height:128px;
+}
+.achivement_notif #name p {
+    margin:0px;
+    width:75%;
+}
+.achivement_notif #name p:first-of-type {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+/*miscellanous*/
+.button {
+    font-family:Georgia;
+    font-size:12px;
+  }
+
+.standard {
+    font-family:Georgia;
+    font-size:18px;
+
+}
+.unselectable {
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+.enlarge {
+    font-size:36px;
+    font-family: Georgia;
+}
+.absolute {
+    position:absolute;
+}
+.glow {
+    text-shadow: 
+    0 0 7px red,
+    0 0 10px rgba(255, 0, 0, 0.762),
+    0 0 21px rgba(255, 0, 0, 0.432),
+}
+.uninteractable {
+    background-color: gray;
+    color:gray;
+}

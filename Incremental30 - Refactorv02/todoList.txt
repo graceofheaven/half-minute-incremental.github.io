@@ -1,0 +1,35 @@
+-Alchemy Milestone (Platinum/Titanium/Uranium)
+-Bloodline (Do the deed with your wife - Rank III >=):
++Lucky, the Firstborn.
++Give bonds which exponentiate GPS by very slight amount.
+
+-Diplomacy (Rank IV Relationship - Queen)
+[-Human Empire: Gold Exponential;
+ -Dwarf Kingdom: Rare Metal gain (P/T/U).]
++Bloodline:Lucia, the Prodigal Princess.
+-Magic: T2 Prestige. Reset all above but your wife and bloodline.
++Unlock Elves Clan for Diplomacy for Magic gain.
++Gain raw multiplier to GPS and Rare Metal. //True Exponential
++Magic Upgrade to GPS, rare metal, determination effect and willpower
+gain.
+-Dark Magic upgrade: same as above and unlock sigilite.
+-Sigilite: Multiply all above like Magic and increase effect of
+certain types.
+
+-Hell Stage (Rank V Relationship - Demonness):
++Hellfire: Gain exponent to GPS, rare metal, magic.
++Diplomacy unlock: Demonkind. gain multiplier to hellfire gain.
++Bloodline: Lucas, the Vermillion Slayer & Lilith, Scarlet Sin.
++Decension: Gain blood the further you go into hell. Blood exponentiate
+GPS, rare metal, hellfire, magic,
++Blood Magic: Seperate into tiers. Gain additional effects at each tiers.
+Become more powerful the higher the tiers.
+T1: Gold, rare metal. Physical items.
+T2: Magic, Sigilite. Mystical.
+T3: Hellfire, Blood. Infernal.
+T4: Demonkind now boost Blood gain.
++Confrontation: Finally, the final battle against the Demon Lords that
+have made you fought so desperately against time up to this point.
+Yes, it's Lord with an s.
+Pride, Wrath, Sloth, Lust, Envy, Greed, Gluttony.
+Final Boss: Original Sin.

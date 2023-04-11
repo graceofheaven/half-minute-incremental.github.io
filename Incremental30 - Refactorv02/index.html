@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Half-Minute Incremental</title>
+    <link rel="stylesheet" href = "main.css">
+</head>
+<body id = "background" class ="unselectable">
+    <div id ="ach_notif"></div>
+    <center>
+        <div class = "timer_container" id = "timer">30.00
+        </div>
+        <div class = "score_container" id = "scoreboard">
+            <p>Gold: <span id="gold">15</span>
+            <br> <span id="gps" style = "font-size:16px">GPS: 0</span> </p>
+        </div>
+    </center>
+    <button class="tab" onclick="openTab(event,'Main')" id="defaultFirst">Main</button>
+    <button class="tab" onclick="openTab(event,'Option')" >Option</button>
+    <button class="tab" onclick="openTab(event,'Upgrade');openSecondTab(event,'General')">Upgrade</button>
+    <button class="tab" style = "width:auto" onclick="openTab(event,'Achievement')">Achievement</button>
+
+    <div id="Main" class="tabcontent" style = "overflow: auto;" id = "defaultFirst">
+        
+        <div class="sectionLeft">
+           <div id ="shopContainer"></div>
+           <div id ="kingdom"></div>
+        </div>
+        <div class="sectionRight">
+            <div class="standard" id="PrayerThreat"></div>
+            <div id="Prayer"></div>
+            <div id="wifeContainer"></div>
+        </div>
+        
+        <div class="sectionLeft" id="autoBuilding"></div>
+        
+        
+        
+    </div>
+    <div id="Option" class="tabcontent"> 
+        <div class = "sectionLeft" id="musicPlayer">
+        
+        </div>
+        <div class = "sectionLeft">
+            <button style = "font-family:Georgia; font-weight:bold" onclick = "save_game()">Save Game</button>
+            <button style = "font-family:Georgia; font-weight:bold" onclick = "reset_game()">Wipe Game</button>
+            <br>
+            <input id="exportField" style ="width:20%; margin-left: 4px; margin-bottom:4px;" type = "text" placeholder="paste import save here">
+            <button style = "font-family:Georgia; font-weight:bold" onclick = "export_game()">Export Game</button>
+            <button style = "font-family:Georgia; font-weight:bold" onclick = "import_game()">Import Game</button>
+
+        </div>
+        <div class = "sectionLeft flexible_marginless" id ="prestigeConfirmation"></div>
+        <div class = "sectionRight">
+            <div class="button" id="totalGold"></div>
+            <div class="button" id="prestigeTime"></div>
+            <div class="button" id="prestigeAmount"></div>
+        </div>
+    </div>
+        
+    <div id="Upgrade" class="tabcontent" id = "defaultFirst">
+        <button class="secondtab" onclick="openSecondTab(event,'General')">General</button>
+        <span id="unlockBloodline"> </span>
+        <button class="secondtab" style ="background-color: gray;" onclick="openSecondTab(event,'Alchemy')">Alchemy</button>
+        <span id="unlockAchMilestone"> </span>
+        <span id="unlockDiplomacy"> </span>
+
+        <div id="General" class="secondtabcontent" id="defaultFirst"> 
+            <div class = "flexible_marginless" id="upgradeContainer"></div>   
+      
+        </div>
+        <div id="Bloodline" class="secondtabcontent" id="defaultFirst"> 
+            <div style="text-align: center;" class="standard"  id="siblingBond"></div>
+            <div class = "flexible_marginless" id="BloodlineContainer"></div>
+              
+        </div>
+
+        <div id="Alchemy" class="secondtabcontent" > 
+            <div id ="Prestige1" class="flexible_center"></div>
+
+        </div>
+        <div id="Alchemy Milestone" class="secondtabcontent flexible_marginless"> 
+            <div id ="Prestige1MS_platinum" class ="flexible_vertical"></div>
+        </div>
+        <div id="Diplomacy" class="secondtabcontent" id="defaultFirst">
+            <div class ="center standard" id ="opportunity"></div>
+            <div class = "sectionLeft standard" id = "proposal"></div> 
+
+            <div class = "flexible_vertical sectionRight" id="diplomacy"></div>   
+        </div>
+        
+        
+
+    </div>
+    <div id="Achievement" class="tabcontent">
+        <div id="achieve">
+            
+        </div>
+
+    </div>
+
+
+    <script src="tab.js" charset="utf-8" type="text/javascript"></script>
+    <script src="secondtab.js" charset="utf-8" type="text/javascript"></script>
+    <script src="break_eternity.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

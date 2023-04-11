@@ -1,0 +1,6 @@
+the code work and variables.
+the display on index html.
+the css for ui
+the updater and debugging. And
+readapting system of previous to fit in.
+Please focus on one at a time.
